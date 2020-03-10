@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Landing Page</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/4279f73342.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<header id="header">
+		<img
+			src="https://i.scdn.co/image/7e5b4efaffeaf013c48307970048ecfb97e068fc"
+			alt="logo powerwolf"
+			id="header-img">
+
+		<nav id="nav-bar">
+			<ul>
+				<li class="nav-link">
+					<a href="#news">News</a>
+				</li>
+				<li class="nav-link">
+					<a href="#shows">Shows</a>
+				</li>
+				<li class="nav-link">
+					<a href="#social">Social</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<form action="https://www.freecodecamp.org/email-submit" method="POST" id="form">
+			<label for="email">Subscribe for the latest news</label>
+			<input type="email" name="email" id="email" placeholder="Enter your email..." required>
+			<button type="submit" id="submit">Subscribe</button>
+		</form>
+
+		<article id="latest-video">
+			<h1>Latest Videoclip</h1>
+
+			<iframe
+				id="video"
+				width="560"
+				height="315"
+				src="https://www.youtube.com/embed/ox4vK6CHP9w"
+				frameborder="0"
+				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
+		</article>
+
+		<article id="news">
+			<h1>Latest News</h1>
+
+			<div class="wrapper">
+				<div class="card">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, aut.</p>
+				</div>
+				<div class="card">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, aut.</p>
+				</div>
+				<div class="card">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, aut.</p>
+				</div>
+			</div>
+		</article>
+
+		<article id="shows">
+			<h1>Shows</h1>
+
+			<div class="wrapper">
+				<div class="card">
+					<p class="date">Mar 10, 2020</p>
+					<p class="localization">Buenos Aires (ARG)</p>
+				</div>
+				<div class="card">
+					<p class="date">Mar 11, 2020</p>
+					<p class="localization">Santiago (CHL)</p>
+				</div>
+				<div class="card">
+					<p class="date">Mar 12, 2020</p>
+					<p class="localization">Lima (PER)</p>
+				</div>
+			</div>
+		</article>
+
+		<article id="social">
+			<h1>Social</h1>
+
+			<ul>
+				<li>
+					<a href="https://www.facebook.com/powerwolfmetal">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://twitter.com/powerwolfband">
+						<i class="fab fa-twitter"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/officialpowerwolf/">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/user/Powerwolfmetal">
+						<i class="fab fa-youtube"></i>
+					</a>
+				</li>
+			</ul>
+		</article>
+	</main>
+</body>
+
+</html>
